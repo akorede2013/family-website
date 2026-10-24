@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About My Family</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+   <?php include("includes/header.php")?>
+
+    <main>
+        <section>
+            <h2>Meet My Family</h2>
+
+            <div class="family-member">
+                <img src="images/daddy.png" alt="Dad">
+                <h3>My Father</h3>
+                <p>My father is funny, hardworking, and smart.</p>
+            </div>
+ 
+            <div class="family-member">
+                <img src="images/ma.png" alt="Mum">
+                <h3>My Mother</h3>
+                <p>My mother is loving, gentle, and kind.</p>
+            </div>
+
+            <div class="family-member">
+                <img src="images/bro.png" alt="Brother">
+                <h3>My Brother</h3>
+                <p>My brother loves football and enjoys playing video games with me.</p>
+            </div>
+
+            <div class="family-member">
+                <img src="images/you.png" alt="Me">
+                <h3>Me</h3>
+                <p>I enjoy learning computers,i love drawing, and spending time with my family.</p>
+            </div>
+        </section>
+    </main>
+
+ <?php include("includes/footer.php")?>
+</body>
+</html>
